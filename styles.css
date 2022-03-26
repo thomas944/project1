@@ -1,0 +1,80 @@
+body.vsc-initialized {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background: #222;
+    margin: 0;
+    background-image: url('https://source.unsplash.com/1920x1080/?landscape');
+    font-family:'Courier New', Courier, monospace
+    
+}
+
+.containerBox {
+    background: #000000d0;
+    color:white;
+    margin: 1em;
+    padding: 1em;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 20px;
+  
+}
+
+.searchBar {display: flex;align-items: center;justify-content: space-around;}
+
+button {
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 20%;
+    background: #7c7c7c2b;
+    color: white;
+}
+
+input[type="text"] {
+    border: none;
+    padding: .5em;
+    border-radius: 10px;
+    margin: 0;
+    color: white;
+    background: #7c7c7c2b;
+    font-family: inherit;
+    width:350px;
+}
+
+button:hover {
+    background: #7c7c7c6b;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+h2.city {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight:bold;
+}
+
+.temp {
+    padding: 3px;
+    padding-left: 10px;
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.description {
+    padding: 3px;
+    padding-left: 10px;
+}
+
+.wind {
+    padding: 3px;
+    padding-left: 10px;
+}
+
+.flex {
+    display:flex;
+    align-items:center;
+}
+
